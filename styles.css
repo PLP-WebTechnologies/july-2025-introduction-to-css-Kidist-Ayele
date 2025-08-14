@@ -1,0 +1,153 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #584fd1;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #2f2a74;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Hero section */
+.hero {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976D2;
+}
+
+/* Content section */
+.content {
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    color: #333;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.card h4 {
+    color: #4CAF50;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Box model demonstration */
+.box-demo {
+    margin-bottom: 20px;
+}
+
+.box-demo h3 {
+    color: #333;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #FF9800;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #E65100;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
